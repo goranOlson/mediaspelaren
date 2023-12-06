@@ -14,7 +14,7 @@ article {
     margin: 10px 0;
 
     background-color: #fff;
-    box-shadow: 1px 1px 4px #aaa;
+    box-shadow: 1px 1px 12px #aaa;
 
     display: flex;
     flex-direction: column;
@@ -24,6 +24,7 @@ article header {
     height: 40px;
     padding: 0 16px;
     background-color: #aaa;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     justify-content: space-between;
