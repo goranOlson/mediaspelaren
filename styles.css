@@ -12,15 +12,13 @@ article {
     width: 700px;
     height: 800px;
     margin: 10px 0;
-
     background-color: #fff;
     box-shadow: 1px 1px 12px #aaa;
-
     display: flex;
     flex-direction: column;
 }
 
-article header {
+header {
     height: 40px;
     padding: 0 16px;
     background-color: #aaa;
@@ -29,5 +27,18 @@ article header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+main {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: row;
+    gap: 6px;
+    /*background-color: #faa;*/
+}
+
+section {
+    width: 100%;
+    background-color: #ddd;
+    
 }
