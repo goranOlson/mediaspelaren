@@ -32,22 +32,22 @@ header {
 }
 
 main {
+    background-color: #99b3b6;
     display: flex;
     flex: 1 1 100%;
     flex-direction: row;
     gap: 6px;
-    /*background-color: #faa;*/
 }
 
 section {
     width: 50%;
     
     max-width: 50%;
-    background-color: #ddd;
+    background-color: rgba(222, 222, 222, 0.5);
     
 }
 section.player {
-    background-color: #17273c;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -56,10 +56,11 @@ section.player {
 .box-image {
     height: 60%;
     padding: 20px 30px;
-    background-color: #aaa;
+    background-color: rgba(21, 38, 60, 0.9);
 }
 .box-controller {
-    height: 40%;;
+    height: 40%;
+    background-color: #15263c;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -71,9 +72,9 @@ section.player {
 .player .progress,
 .player .controller {
     /* height: 80px; */
-    /* padding: 12px; */
-    height: auto;
-    background: maroon;
+    padding-inline: 24px;
+    height: 33.33%;
+    
     color: #fff;
     
     display: flex;
@@ -89,7 +90,10 @@ section.player {
 
 .player .song {}
 .player .progress {}
-.player .controller {}
+.player .controller {
+    display: flex;
+    justify-content: space-between;
+}
 
 /* icons */
 /* header .material-icons { font-size: 30px; } */
