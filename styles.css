@@ -43,13 +43,28 @@ section {
     
     max-width: 50%;
     background-color: rgba(222, 222, 222, 0.5);
-    
+    color: #fff
 }
-section.player {
+
+/*--- left side - song list ---*/
+.song-list .song-list-item {
+    height: 117px;
+    padding: 12px;
+    background-color: #15263c;
+    border-bottom: 1px solid #0d1b2c;
+}
+
+
+
+
+
+section.player, section.song-list {
     display: flex;
     flex-direction: column;
 }
 
+
+/*--- right side - play control ---*/
 .box-image {
     padding: 20px 30px;
     background-color: rgba(21, 38, 60, 0.9);
