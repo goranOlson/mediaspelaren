@@ -78,6 +78,7 @@ section.player {
     color: #fff;
     
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -98,6 +99,25 @@ section.player {
     align-items: center;
         /* background-color: #555; */
 }
+
+.progress-time {
+    color: rgb(133, 131, 131);
+}
+.progressor {
+    width: 80%;
+    height: 5px;
+    background-color: #1128;
+    border-radius: 2.5px;
+}
+.progress-bar {
+    width: 30%;
+    height: 5px;
+    background-color: whitesmoke;
+    border-radius: 2.5px;
+}
+
+
+
 .player .controller .repeat,
 .player .controller .shuffle {
     /* color: red; */
